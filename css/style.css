@@ -20,7 +20,40 @@ header, footer{
  	background-color: silver;
 }
 
-.us-index{
+.index-body{
+	background-image: url(../assets/img/bg-5.JPEG);
+    background-attachment: fixed; 
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.index-encabezado{
+	color: whitesmoke;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.index-encabezado h1{
+   font-size: 2rem;
+   word-spacing: 2rem;
+   letter-spacing: 5px;
+}
+
+.index-encabezado h2{
+	font-size: 1.5rem;
+	padding-bottom: 1rem;
+	word-spacing: 5px;
+}
+
+.index-buttons{
+	padding-bottom: 2rem;
+}
+
+.index-card{
+	padding-bottom: 2rem;
+}
+
+.us-body{
 	background-image: url(../assets/img/bg-4.JPEG);
     background-attachment: fixed; 
 	background-position: center; 
