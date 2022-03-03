@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+	font-family: 'Varela Round';
+}
+
+.navbar-collapse{
+	justify-content: flex-end;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: white;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: steelblue;
+}
+
+header, footer{
+ 	background-color: silver;
+}
+
+.us-index{
+	background-image: url(../assets/img/bg-4.JPEG);
+    background-attachment: fixed; 
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.main-us{
+    padding-top: 3rem;
+	padding-right: 2rem;
+	padding-bottom: 3rem;
+	padding-left: 1rem;
+}
+
+.mainUs-item{
+	color: lightslategrey;
+    font-size: 3rem;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}  
+
+span{
+	color: lightsteelblue;
+}
+
+.mainUs-itemtwo{
+	color: whitesmoke;
+	font-size: 20px;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.review-body{
+	background-image: url(../assets/img/bg-7.JPEG);
+    background-attachment: fixed; 
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.review-item{
+	color: white;
+	padding: 2rem;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.review-img{
+	padding-bottom: 2rem;
+}
+
+label{
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+    padding: 0.5rem;
+}
+
+footer{
+	padding: 3rem;
+}
